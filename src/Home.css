@@ -1,0 +1,50 @@
+.info-sec{
+    margin-left: 20px; 
+}
+.download-btn {
+    border: none;
+    padding: 10px 20px; 
+    font-weight: 700; 
+    border-radius: 5px;
+    background-color:  #683615;
+    color: white;
+    
+}
+.download-btn:hover {
+    background-color: #994721;
+    color: white;
+    font-weight: 700;
+    
+}
+.pro-pic{
+    height: 150px;
+    width: 200px;
+}
+.pro-pic img {
+    border-radius: 100px !important;
+}
+.home-sec{
+    /* background-image: url("./images/orange-bd.jpg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-image: linear-gradient(90deg,#572913, black);
+}
+.profile-info{
+    padding: 130px 80px;
+    color: white;
+}
+.inline{
+    height: 1px;
+    width: 100px;
+    background-color: white;
+}
+.name{
+    font-size: 35px;
+    padding-top: 15px;
+}
+.developer{
+    color: #684242;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px 0;
+}

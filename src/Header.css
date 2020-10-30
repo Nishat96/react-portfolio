@@ -1,0 +1,20 @@
+/* .header-main{
+    position: fixed;
+} */
+
+.header-sec{
+    background-color: #082e08 !important;  
+}
+.header-sec .navbar-brand {
+    color: white !important; 
+}
+.header-sec li a{
+    color: white !important; 
+    padding: 15px ;
+}
+.nav-item a:hover {
+    background-color: white !important;
+    color: black !important;
+    font-weight: 700;
+    border-radius: 10px;
+}

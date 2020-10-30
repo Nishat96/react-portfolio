@@ -1,0 +1,24 @@
+.project-sec{
+    padding: 20px 30px;
+}
+.card-sec{
+    transition: transform 100ms ease-in;
+}
+.card-sec:hover{
+    transform: scale(1.07);
+}
+.card-sec > image {
+    object-fit: fill;
+    width: 100%;
+}
+.card-btn{
+    background-color: #e9b014 !important;
+    padding: 5px 15px !important;
+   
+}
+.card-btn a{
+    text-decoration: none !important;
+    color: black !important;
+    font-weight: 600 !important;
+    font-size: 12px;
+}
