@@ -1,15 +1,25 @@
 .footer-sec{
     text-align: center;
-    padding-top: 15px;
+    padding: 25px 0;
 }
 .linkedIn-btn{
-    background-color: black;
-    color: white;
+    background-color: #e6d072;
+    color: black;
     border: none;
     margin-right: 10px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 12px;
 }
 .github-btn{
-    background-color: black;
-    color: white;
+    background-color: #e6d072;
+    color: black;
     border: none;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.bottom-line{
+    color: gray;
+    font-weight: 400;
 }

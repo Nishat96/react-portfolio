@@ -12,7 +12,8 @@ import agency from './images/agency.png';
 import travel from './images/travel.PNG';
 import education from './images/education.PNG';
 import airbnb from './images/airbnb.PNG';
-
+import doctor from './images/doctor.PNG';
+import youtube from './images/youtube.PNG';
 
 const AllProject = () => {
     const useStyles = makeStyles({
@@ -28,9 +29,11 @@ const AllProject = () => {
         const classes = useStyles();
       
     return (
-            <div className="row project-sec" id="projects">
+        <section id="projects">
+            <h3 className="works">Some of My Works</h3>
+            <div className="row project-sec">
                
-                <div className="col-md-3">
+                <div className="col-md-4">
                     <div className="card-sec">
                 <Card className={classes.root}>
                     <CardActionArea>
@@ -65,7 +68,7 @@ const AllProject = () => {
                     </Card>
                 </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-4">
                 <div className="card-sec">
                 <Card className={classes.root}>
                     <CardActionArea>
@@ -99,7 +102,7 @@ const AllProject = () => {
                     </Card>
                     </div>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-4">
                 <div className="card-sec">
                 <Card className={classes.root}>
                     <CardActionArea>
@@ -114,8 +117,8 @@ const AllProject = () => {
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                         Students can enroll here.
-                        They can see how many courses they have selected
-                        Also can check the total price.
+                        They can see how many courses they have selected.
+                        Also can check the total price with each quantity of their course item.
                         </Typography>
                         </CardContent>
                     </CardActionArea>
@@ -134,9 +137,12 @@ const AllProject = () => {
                     </Card>
                 </div>
                 </div>
-                <div className="col-md-3">
-                <div className="card-sec">
-                <Card className={classes.root}>
+               
+            </div>
+            <div className="row project-sec">
+                <div className="col-md-4">
+                    <div className="card-sec">
+                    <Card className={classes.root}>
                     <CardActionArea>
                         <CardMedia
                         className={classes.media}
@@ -167,10 +173,79 @@ const AllProject = () => {
                         </Button>
                     </CardActions>
                     </Card>
+                    </div>
                 </div>
+                <div className="col-md-4">
+                    <div className="card-sec">
+                    <Card className={classes.root}>
+                    <CardActionArea>
+                        <CardMedia
+                        className={classes.media}
+                        image={youtube}
+                        title="Youtube-clone"
+                        />
+                        <CardContent>
+                        <Typography gutterBottom variant="h5" component="h2">
+                            Youtube clone
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                        Its a clone of YouTube.com. Here we can see recommended video's section. Also there is a side bar similar to official Youtube.com.
+                        </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                        <Button className="card-btn" size="small" color="primary">
+                        <a href="https://youtube-clone-m696.netlify.app/">
+                        Live Link
+                        </a>
+                        </Button>
+                        <Button className="card-btn" size="small" color="primary">
+                        <a href="https://github.com/Nishat96/Youtube-clone" target="_blank">
+                        Git Repo Link
+                        </a>
+                        </Button>
+                    </CardActions>
+                    </Card>
+                    </div>
                 </div>
-               
+                <div className="col-md-4">
+                    <div className="card-sec">
+                    <Card className={classes.root}>
+                    <CardActionArea>
+                        <CardMedia
+                        className={classes.media}
+                        image={doctor}
+                        title="Doctor's-portal"
+                        />
+                        <CardContent>
+                        <Typography gutterBottom variant="h5" component="h2">
+                            Doctor's Portal
+                        </Typography>
+                        <Typography variant="body2" color="textSecondary" component="p">
+                        It's a doctor's portal site. Where anyone can get appointment.
+                        Any one can see patients reviews, doctor's services.
+                        Also can contact if needed.
+                        </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                        <Button className="card-btn" size="small" color="primary">
+                        <a href="https://doctors-portal-m696.netlify.app/" target="_blank">
+                        Live Link
+                        </a>
+                        </Button>
+                        <Button className="card-btn" size="small" color="primary">
+                        <a href="https://github.com/Nishat96/doctors-portal-client" target="_blank">
+                        Git Repo Link
+                        </a>
+                        </Button>
+                    </CardActions>
+                    </Card>
+                    </div>
+                </div>
+
             </div>
+           </section>
          
     );
 };

@@ -13,7 +13,7 @@ const Footer = () => {
              <a href="https://github.com/Nishat96" target="_blank">
                 <button className="github-btn"> <FaGithub/> </button>
               </a>
-                <p>©2020. All rights reserved. Nishat Tasnim Mithila. </p>
+                <p className="bottom-line">©2020. All rights reserved. Nishat Tasnim Mithila. </p>
             </div>
         </div>
     );

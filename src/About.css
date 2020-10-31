@@ -1,4 +1,50 @@
 .about-sec {
+    /* text-align: center; */
+    color: powderblue;
+    padding-bottom: 120px;
+    padding-left: 60px;
+}
+.about{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.about-myself{
+    color: powderblue !important;
+    font-weight: 600;
+    padding-top: 20px 0;
+}
+.about-myself:hover{
+    margin-left: 40px !important;
+    transform: scale(1.07);
+    color: #e6d072!important;
+    
+}
+.skill{
+    font-weight: 600;
+}
+.about-row{
+    padding-left: 30px;
+}
+.inline-about{
+    height: 1px;
+    width: 100px;
+    background-color: white;   
+}
+.varsity{
+    color: #e6d072;
+    font-weight: bold;
+}
+.skill{
+    border-radius: 10px;
+    background-color: #683615 !important;
+    padding: 15px 25px ;
     text-align: center;
-    color: white;
+}
+.skill:hover{
+    background-color: #994721!important;
+    color: white !important;
+}
+.reach-me{
+    text-align: center;
+    padding-top: 80px;
 }

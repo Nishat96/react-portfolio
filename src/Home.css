@@ -13,16 +13,15 @@
 .download-btn:hover {
     background-color: #994721;
     color: white;
-    font-weight: 700;
-    
+    font-weight: 700; 
 }
 .pro-pic{
-    height: 150px;
-    width: 200px;
+    height:170px;
+    width:170px;
+    border-radius:50%;
+    
 }
-.pro-pic img {
-    border-radius: 100px !important;
-}
+
 .home-sec{
     /* background-image: url("./images/orange-bd.jpg"); */
     /* background-repeat: no-repeat;
@@ -31,7 +30,7 @@
 }
 .profile-info{
     padding: 130px 80px;
-    color: white;
+    color: powderblue;
 }
 .inline{
     height: 1px;
@@ -43,7 +42,7 @@
     padding-top: 15px;
 }
 .developer{
-    color: #684242;
+    color:#b6adad;
     font-weight: 700;
     font-size: 18px;
     padding: 15px 0;

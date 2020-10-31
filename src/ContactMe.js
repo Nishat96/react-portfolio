@@ -15,7 +15,8 @@ const ContactMe = () => {
       e.target.reset()
     }
     return (
-        <div className="container" id="contact">
+        <div className="container contact-me" id="contact">
+            <h2 className="in-touch"> Get in touch! </h2>
            <form onSubmit={sendEmail}>
                 <div className="row pt-5 mx-auto">
                     <div className="col-8 form-group mx-auto">
@@ -31,7 +32,7 @@ const ContactMe = () => {
                         <textarea className="form-control" cols="30" rows="8" Placeholder="Your Message" name="message"/>
                     </div>
                     <div className="col-8 pt-3 mx-auto">
-                        <input type="submit" className="btn btn-info" Value="Send Message"/>
+                        <input type="submit" className="submit-btn" Value="Send Message"/>
                     </div>
                 </div>
 

@@ -1,0 +1,21 @@
+.contact-me{
+    padding: 80px 0;
+}
+.in-touch{
+    color: powderblue;
+    text-align: center;
+}
+.submit-btn{
+    background-color:  #683615;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center !important;
+}
+.submit-btn:hover{
+    background-color: #994721;
+    color: white;
+}
